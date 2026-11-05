@@ -1,0 +1,42 @@
+/* Universal Selector */
+* {
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: rebeccapurple;
+}
+
+/* Class Selector */
+.base_color {
+    color: darkolivegreen;
+}
+
+/* Type Selector*/ 
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    line-height: 100%;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', sans-serif;
+    color: darkslategray;
+}
+
+main > section1 {
+    color: darkblue;
+}
+
+main > section2 {
+    color: black;
+}
+
+header {
+    background-color: burlywood;
+}
+
+/* ID selector */
+#copywrite {
+    text-align: center;
+    font-size: 0.8em;
+    color: darkblue;
+}
