@@ -33,6 +33,13 @@ main > ol {
 	margin: auto;
 }
 
+main > ol > li {
+    color: darkblue;
+    font-size: 1.2em;
+    line-height: 2em;
+    padding: 0.5em;
+}
+
 header {
     background-color: burlywood;
 }
